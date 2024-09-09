@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define el conjunto de caracteres como UTF-8 -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Asegura que la página se ajuste correctamente en diferentes dispositivos -->
+    
+    <title>A Calcular</title>
+    <!-- Título de la pestaña del navegador -->
+</head>
+
+<body>
+    <h1>A Calcular</h1>
+    <!-- Título principal de la página -->
+
+    <!-- Campo para ingresar el primer número -->
+    <input type="number" id="num1" placeholder="Número 1" />
+
+    <!-- Menú desplegable para seleccionar la operación matemática -->
+    <select id="operacion">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    
+    <!-- Campo para ingresar el segundo número -->
+    <input type="number" id="num2" placeholder="Número 2" />
+    
+    <!-- Botón que realiza el cálculo cuando se hace clic -->
+    <button onclick="calcular()">Calcular</button>
+    
+    <!-- Área donde se mostrará el resultado del cálculo -->
+    <p id="resultado"></p>
+
+    <script src="main4.js"></script>
+    <!-- Enlaza el archivo JavaScript 'main4.js' que contiene la lógica del cálculo -->
+</body>
+
+</html>
